@@ -1,0 +1,6 @@
+title = "Règles personnalisées pour mon école"
+
+[[rules]]
+description = "Détection des tokens internes"
+regex = '''(TOKEN_ECOLE-[a-zA-Z0-9]{10})'''
+secretGroup = 1
